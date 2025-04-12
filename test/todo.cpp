@@ -53,4 +53,5 @@ const char** TodoList::get_pending_tasks(int& count) const {
     // TODO: set count and return task array
     count = size;
     return const_cast<const char**>(tasks);
+    //
 }
